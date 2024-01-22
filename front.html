@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="title"> IMC Calculator </div>
+        <div class="input">
+            <input type="text" id='nome' placeholder="Name" required>
+            <i class='bx bxs-user'></i>
+        </div>
+        <div class="input">
+            <input type="number" id='altura' placeholder="Height" required>
+            <i class='bx bxs-user'></i>
+        </div>
+        <div class="input">
+            <input type="number" id='peso' placeholder="Weigth" required>
+            <i class='bx bxs-user'></i>
+        </div>
+        <button id='calcular'>Calcular</button>
+
+        <div class="result" id='resultado'></div>
+      </div>
+    </main>
+    <script src="./imc.js"></script>
+  </body>
+</html>
