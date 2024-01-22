@@ -95,10 +95,10 @@ body{
     width: 419px;
     height: 150px;
     border-radius: 5px;
-    font: italic 1.5rem serif;
+    font: bold 1.5rem;
     box-shadow: 0px 0px 10px rgb(40, 40, 40);
     background: #ffffff;
-    color: rgb(112, 112, 112);
+    color: rgb(0, 0, 0);
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
